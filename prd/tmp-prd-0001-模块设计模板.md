@@ -7,9 +7,8 @@
 | 版本     | 1.0.0                 |
 | 日期     | [YYYY-MM-DD]          |
 | 作者     | [作者名称]            |
-| 状态     | [Draft/Review/Approved] |
-| 文档编号 | PRD-[产品标识]-002    |
-| 关联文档 | [产品概述](./tmp-prd-0000-产品概述模板.md) \| [API设计](../api/[product]-api.md) \| [数据库设计](../db/[product]-db.md) \| [详细细节](./tmp-prd-0002-详细细节模板.md) |
+| 状态     | Draft / Review / Approved |
+| 关联文档 | [产品概述](./prd-0001-[项目名]-product-overview.md) \| [需求索引](./prd-0000-[项目名]-requirement-index.md) \| [功能细节](./prd-0003-[项目名]-function-details.md) |
 
 ## 修订历史
 
@@ -43,7 +42,7 @@
 **关键逻辑：**
 [描述组件的关键交互和状态管理逻辑]
 
-> 📌 详见 [API文档 - 模块1](../api/[product]-api.md#模块1) | [数据库设计 - 模块1](../db/[product]-db.md#模块1)
+> 📌 该模块的 FP 与 RP 明细见 [功能细节](./prd-0003-[项目名]-function-details.md#模块1名称)
 
 ### 1.4 后端实现
 
@@ -73,7 +72,7 @@
 
 [前端组件说明]
 
-> 📌 详见 [API文档 - 模块2](../api/[product]-api.md#模块2) | [数据库设计 - 模块2](../db/[product]-db.md#模块2)
+> 📌 该模块的 FP 与 RP 明细见 [功能细节](./prd-0003-[项目名]-function-details.md#模块2名称)
 
 ### 2.4 后端实现
 
@@ -98,7 +97,7 @@
 
 [前端组件说明]
 
-> 📌 详见 [API文档 - 模块3](../api/[product]-api.md#模块3) | [数据库设计 - 模块3](../db/[product]-db.md#模块3)
+> 📌 该模块的 FP 与 RP 明细见 [功能细节](./prd-0003-[项目名]-function-details.md#模块3名称)
 
 ### 3.4 后端实现
 
@@ -122,7 +121,7 @@
 
 [前端组件说明]
 
-> 📌 详见 [API文档 - 模块4](../api/[product]-api.md#模块4) | [数据库设计 - 模块4](../db/[product]-db.md#模块4)
+> 📌 该模块的 FP 与 RP 明细见 [功能细节](./prd-0003-[项目名]-function-details.md#模块4名称)
 
 ### 4.4 后端实现
 
@@ -146,7 +145,7 @@
 
 [前端组件说明]
 
-> 📌 详见 [API文档 - 模块5](../api/[product]-api.md#模块5) | [数据库设计 - 模块5](../db/[product]-db.md#模块5)
+> 📌 该模块的 FP 与 RP 明细见 [功能细节](./prd-0003-[项目名]-function-details.md#模块5名称)
 
 ### 5.4 后端实现
 
@@ -184,10 +183,9 @@
 - 功能概述和核心功能清单
 - 前端和后端实现指南
 
-详细的 **API端点定义** 和 **数据结构** 请参考：
-- 📋 [API 文档](../api/[product]-api.md)
-- 🗂️ [数据库设计](../db/[product]-db.md)
-- 📝 [详细功能细节](./tmp-prd-0002-详细细节模板.md)
+每个 FP 的详细规则点（RP）与验收标准，见：
+- [功能细节](./prd-0003-[项目名]-function-details.md)
+- [需求索引](./prd-0000-[项目名]-requirement-index.md)
 
 ---
 

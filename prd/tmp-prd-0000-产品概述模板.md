@@ -7,8 +7,8 @@
 | 版本     | 1.0.0                 |
 | 日期     | [YYYY-MM-DD]          |
 | 作者     | [作者名称]            |
-| 状态     | [Draft/Review/Approved] |
-| 文档编号 | PRD-[产品标识]-001    |
+| 状态     | Draft / Review / Approved |
+| 关联文档 | [需求索引](./prd-0000-[项目名]-requirement-index.md) \| [模块设计](./prd-0002-[项目名]-module-design.md) \| [功能细节](./prd-0003-[项目名]-function-details.md) |
 
 ## 修订历史
 
@@ -193,20 +193,19 @@
 
 ### 核心模块导航
 
-1. [模块1](#1-模块1名称)
-2. [模块2](#2-模块2名称)
-3. [模块3](#3-模块3名称)
-4. [模块4](#4-模块4名称)
-5. [模块5](#5-模块5名称)
+> 跨文档锚点必须带文件路径，否则会落在本文件内失效。
+
+1. [模块1](./prd-0002-[项目名]-module-design.md#1-模块1名称)
+2. [模块2](./prd-0002-[项目名]-module-design.md#2-模块2名称)
+3. [模块3](./prd-0002-[项目名]-module-design.md#3-模块3名称)
+4. [模块4](./prd-0002-[项目名]-module-design.md#4-模块4名称)
+5. [模块5](./prd-0002-[项目名]-module-design.md#5-模块5名称)
 
 ### 相关设计文档
 
-- [产品名称 - 模块级别设计](./[product]-modules.md)
-- [产品名称 - 详细功能细节](./[product]-details.md)
-- [产品名称 - 非功能需求](./[product]-nfr.md)
-- [产品名称 - 技术架构](../architecture/[product]-architecture.md)
-- [产品名称 - API文档](../api/[product]-api.md)
-- [产品名称 - 数据库设计](../db/[product]-db.md)
+- [需求索引](./prd-0000-[项目名]-requirement-index.md)
+- [模块设计](./prd-0002-[项目名]-module-design.md)
+- [功能细节](./prd-0003-[项目名]-function-details.md)
 
 ---
 
